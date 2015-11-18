@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="color_list">
+        <item>@color/color_bar_20</item>
+        <item>@color/color_bar_19</item>
+        <item>@color/color_bar_1</item>
+        <item>@color/color_bar_2</item>
+        <item>@color/color_bar_3</item>
+        <item>@color/color_bar_4</item>
+        <item>@color/color_bar_5</item>
+        <item>@color/color_bar_6</item>
+        <item>@color/color_bar_7</item>
+        <item>@color/color_bar_8</item>
+        <item>@color/color_bar_9</item>
+        <item>@color/color_bar_10</item>
+        <item>@color/color_bar_11</item>
+        <item>@color/color_bar_12</item>
+        <item>@color/color_bar_13</item>
+        <item>@color/color_bar_14</item>
+        <item>@color/color_bar_15</item>
+        <item>@color/color_bar_16</item>
+        <item>@color/color_bar_17</item>
+        <item>@color/color_bar_18</item>
+    </array>
+
+    <string-array name="font_list">
+        <item>roboto_black.ttf</item>
+        <item>roboto_medium.ttf</item>
+        <item>roboto_thin.ttf</item>
+        <item>black_jack.ttf</item>
+        <item>pacifico.ttf</item>
+        <item>capture_it.ttf</item>
+        <item>capture_it_two.ttf</item>
+        <item>croissant_sandwich.ttf</item>
+        <item>green_avocado.ttf</item>
+        <item>ostrich_black.ttf</item>
+        <item>ostrich_bold.ttf</item>
+        <item>searsrn.ttf</item>
+    </string-array>
+</resources>

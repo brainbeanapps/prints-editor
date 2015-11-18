@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">"Prints Editor"</string>
+
+    //navigation drawer menu
+    <string name="nvg_create_new">Create new</string>
+    <string name="nvg_my_prints">My prints</string>
+    <string name="nvg_templates">Templates</string>
+    <string name="nvg_about">About</string>
+    <string name="nvg_support">Support</string>
+
+    //Action
+    <string name="action_create">Create</string>
+    <string name="action_add_image">Add image</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_export">Export</string>
+
+    //Fragments title
+    <string name="title_edit_image">Image</string>
+    <string name="title_edit_text">Text</string>
+    <string name="title_print_editor">Print editor</string>
+    <string name="title_user_prints">My prints</string>
+    <string name="title_prints_templates">Templates</string>
+    <string name="title_photo_album">Photos from device</string>
+    <string name="title_print_export">Export your print</string>
+
+    //Empty
+    <string name="empty_user_prints">To create a new print, click on the round button in the lower right corner.</string>
+    <string name="empty_prints_templates">Unfortunately the is no templates.</string>
+    <string name="empty_photo_album">There is no photos in album.</string>
+
+    //Hint The file is exported, please wait
+    <string name="hint_export">The file is exporting, please wait...</string>
+    <string name="hint_font">abc</string>
+
+    //Dialog
+    <string name="d_save_title">Are you sure you want to exit the editor without saving the result?</string>
+    <string name="d_save_negative">Exit</string>
+    <string name="d_save_positive">Save</string>
+</resources>

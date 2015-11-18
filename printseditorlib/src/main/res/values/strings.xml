@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PrintsEditorLib</string>
+    <string name="tag_child_editor_view">tag_child_editor_view</string>
+    <string name="tag_child_preview_view">tag_child_preview_view</string>
+    <string name="tag_child_template_view">tag_child_template_view</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.christophesmet.android.views.maskableframelayout.MaskableFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frm_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:porterduffxfermode="DST_IN">
+
+        <ImageView
+            android:id="@+id/edit_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="matrix" />
+
+    </com.christophesmet.android.views.maskableframelayout.MaskableFrameLayout>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal|bottom"
+        android:inputType="textNoSuggestions|text|textMultiLine"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_title" />
+
+</merge>

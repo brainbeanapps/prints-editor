@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/toolbar"
+    android:gravity="center_vertical"
+    android:textSize="@dimen/text_title"
+    android:textColor="@color/text_main"
+    android:text="@string/hint_font"
+    android:id="@+id/font_text">
+</TextView>

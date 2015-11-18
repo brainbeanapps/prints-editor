@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="PrintEditorView">
+        <attr name="editor_image" format="integer" />
+        <attr name="editor_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PrintBackgroundView">
+        <attr name="editor_bg" format="integer" />
+        <attr name="editor_child_tag" format="string" />
+        <attr name="editor_space" format="float" />
+        <attr name="editor_space_top" format="float" />
+        <attr name="editor_space_right" format="float" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_light">#B2DFDB</color>
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_tr">#a0009688</color>
+
+    <color name="accent">#ffee7363</color>
+
+    <color name="divider">#7c8a8a8a</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_tr">#a6ffffff</color>
+
+    <color name="text_main">#414141</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_header">#989898</color>
+
+    <color name="gray_light">#ffececec</color>
+    <color name="gray_medium">#ffbbbbbb</color>
+    <color name="gray_dark">#ff454545</color>
+
+    <color name="color_bar_20">#ff454545</color>
+    <color name="color_bar_19">#ffffffff</color>
+    <color name="color_bar_1">#ff9f9f9f</color>
+    <color name="color_bar_2">#ff617e8c</color>
+    <color name="color_bar_3">#ff7a5649</color>
+    <color name="color_bar_4">#ffff9902</color>
+    <color name="color_bar_5">#ffffc109</color>
+    <color name="color_bar_6">#ffffeb3d</color>
+    <color name="color_bar_7">#ffccdb3b</color>
+    <color name="color_bar_8">#ff8cc34b</color>
+    <color name="color_bar_9">#ff4daf51</color>
+    <color name="color_bar_10">#ff029789</color>
+    <color name="color_bar_11">#ff02bcd4</color>
+    <color name="color_bar_12">#ff05a9f4</color>
+    <color name="color_bar_13">#ff2397f3</color>
+    <color name="color_bar_14">#ff4152b5</color>
+    <color name="color_bar_15">#ff683bb7</color>
+    <color name="color_bar_16">#ffe91e64</color>
+    <color name="color_bar_17">#fff44437</color>
+    <color name="color_bar_18">#ffff5824</color>
+
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+    </style>
+
+    <style name="MyToolbar" parent="Theme.AppCompat">
+        <!-- Title text -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Title color in AppCompat.Light  -->
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+
+        <!-- Menu text-->
+        <item name="actionMenuTextColor">@color/white_tr</item>
+        <!-- Overflow -->
+        <item name="android:textColorSecondary">@color/white_tr</item>
+        <!-- This will change drawer icon -->
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+        <!-- background of the  -->
+        <!-- <item name="android:background">@color/color_primary</item> -->
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="Dialog" parent="Base.Theme.AppCompat.Dialog.FixedSize">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+
+        <item name="colorControlNormal">@color/divider</item>
+        <item name="colorSwitchThumbNormal">@color/divider</item>
+    </style>
+
+</resources>

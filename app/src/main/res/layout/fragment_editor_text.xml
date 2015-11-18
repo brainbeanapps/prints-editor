@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="12dp"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item"
+        android:gravity="center_vertical"
+        android:padding="@dimen/content_space">
+
+
+        <ImageButton
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/edit_btn_gravity_hr"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_selector"
+            android:src="@drawable/ic_editor_format_align_center" />
+
+        <ImageButton
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/edit_btn_gravity_vr"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_selector"
+            android:src="@drawable/ic_editor_border_horizontal"
+            android:layout_toRightOf="@+id/edit_btn_gravity_hr" />
+
+        <ImageButton
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/edit_btn_size_b"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_selector"
+            android:src="@drawable/ic_content_add_circle"
+            android:layout_toLeftOf="@+id/edit_btn_size_s" />
+
+        <ImageButton
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/edit_btn_size_s"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_selector"
+            android:src="@drawable/ic_content_remove_circle"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <com.brainbeanapps.rosty.printseditordemo.ui.view.ColorBar
+        android:id="@+id/edit_color_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:clickable="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/edit_font_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar"
+        tools:context=".PrintsEditorActivity"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/content_space"/>
+
+</LinearLayout>

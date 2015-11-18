@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nvg_primary"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_create_new"
+            android:icon="@drawable/ic_plus_grey600_24dp"
+            android:title="@string/nvg_create_new" />
+        <item
+            android:id="@+id/nav_user_prints"
+            android:icon="@drawable/ic_human_grey600_24dp"
+            android:checked="true"
+            android:title="@string/nvg_my_prints" />
+
+        <item
+            android:id="@+id/nav_prints_templates"
+            android:icon="@drawable/ic_file_image_grey600_24dp"
+            android:title="@string/nvg_templates" />
+    </group>
+
+    <group
+        android:id="@+id/nvg_secondary"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/nvg_about"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_support"
+            android:title="@string/nvg_support"
+            android:checkable="false"/>
+    </group>
+
+</menu>

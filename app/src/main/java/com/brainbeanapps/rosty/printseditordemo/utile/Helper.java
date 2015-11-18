@@ -1,0 +1,36 @@
+package com.brainbeanapps.rosty.printseditordemo.utile;
+
+import android.content.res.Resources;
+import android.util.TypedValue;
+import android.view.View;
+
+public class Helper {
+	
+	
+	/**
+	 * Convert Dp to Pixel
+	 */
+	public static int dpToPx(float dp, Resources resources){
+		float px = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, resources.getDisplayMetrics());
+		return (int) px;
+	}
+
+
+	/**
+	 * Methods used for the slider
+	 */
+
+	public static int getRelativeTop(View myView) {
+	    if(myView.getId() == android.R.id.content)
+	        return myView.getTop();
+	    else
+	        return myView.getTop() + getRelativeTop((View) myView.getParent());
+	}
+	
+	public static int getRelativeLeft(View myView) {
+		if(myView.getId() == android.R.id.content)
+			return myView.getLeft();
+		else
+			return myView.getLeft() + getRelativeLeft((View) myView.getParent());
+	}
+}

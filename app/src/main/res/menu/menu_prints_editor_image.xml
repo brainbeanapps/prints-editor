@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_reset"
+        android:title="@string/action_reset"
+        android:icon="@drawable/ic_action_reset"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_open_album"
+        android:title="@string/action_add_image"
+        android:icon="@drawable/ic_action_image_photo_library"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_create"
+        android:title="@string/action_create"
+        android:icon="@drawable/ic_action_done"
+        app:showAsAction="always" />
+
+</menu>
